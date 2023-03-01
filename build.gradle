@@ -3,8 +3,8 @@ plugins {
   id 'org.jetbrains.intellij' version '1.10.0'
 }
 
-group 'com.lukasbach.intellij'
-version '1.0.5'
+group 'com.joriano.intellij'
+version '1.0.7'
 sourceCompatibility = 1.8
 
 repositories {
@@ -30,6 +30,6 @@ patchPluginXml {
   //   Initial Release"""
 }
 
-publishPlugin {
-  token = System.getenv("INTELLIJ_DEPLOY")
-}
+//publishPlugin {
+//  token = System.getenv("INTELLIJ_DEPLOY")
+//}
